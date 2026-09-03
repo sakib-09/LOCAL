@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width" initial-scale="1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <button>=</button>
         <button>About me</button>
@@ -11,7 +11,20 @@
     </head>
     <body>
 <h1>Login</h1>
+<form action="login.php" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Login</button>
+</form>
     </body>
+    <footer>
+        @2024 My Website. All rights reserved.
+        <button>facebook</button>
+        <button>twitter</button>
+        <button>instagram</button>
+    </footer>
 
 </html>
-</head>
+
